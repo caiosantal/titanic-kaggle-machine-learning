@@ -1,11 +1,10 @@
-# titanic-kaggle-machine-learning
+# 🚢 titanic-kaggle-machine-learning
 Leitura dos dados, Limpeza, Tratamento de Nulos, Normalização, Análise Descritiva (EDA) e Classificação comparativa com Naive Bayes, Regressão Logística e KNN.
-# 🚢 Titanic - Projeto de Ciência de Dados
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
-![Kaggle](https://img.shields.io/badge/Kaggle-Titanic-20BEFF)
-![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![Kaggle](https://img.shields.io/badge/Kaggle-Titanic-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/c/titanic)
+[![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)](https://github.com/caiosantal/titanic-datascience)
 
 > **Classificação de sobreviventes do naufrágio do Titanic** – um projeto completo de *machine learning* com análise exploratória, pré-processamento e comparação de modelos.
 
