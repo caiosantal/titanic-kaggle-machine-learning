@@ -50,7 +50,50 @@ Para executar o notebook localmente ou no Google Colab, você precisará das seg
 - `seaborn`
 - `scikit-learn`
 
-Instale‑as com:
+## 📂 Dados
+Os dados estão disponíveis no Kaggle – Titanic: Machine Learning from Disaster. Faça o download dos arquivos train.csv e test.csv e coloque-os em um diretório de sua preferência.
 
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
+## 📊 Análise Exploratória
+A análise inicial revelou informações importantes:
+
+Gênero: mulheres tiveram uma taxa de sobrevivência de ~75%, enquanto homens ~25%.
+
+Classe social: passageiros da 1ª classe sobreviveram em maior proporção; a maioria das mortes ocorreu na 3ª classe.
+
+Idade: crianças (especialmente do sexo feminino) e jovens adultos tiveram maior chance de sobreviver.
+
+Preço da passagem: quanto mais caro, maior a probabilidade de sobrevivência (correlacionado com a classe).
+
+Porto de embarque: a maioria dos sobreviventes embarcou em Southampton (S)
+
+## 🤖 Modelagem e Resultados
+Os dados foram divididos em treino (891 registros) e teste (418 registros). Três algoritmos foram testados:
+
+Modelo	Acurácia (treino)	Score Kaggle
+Naive Bayes	78,90%	—
+Regressão Logística	80,02%	—
+k‑NN (k=16, Euclidiana)	83,61%	0,76794
+
+## 📌 Conclusão
+Este projeto demonstra um fluxo de trabalho completo de Ciência de Dados:
+
+Limpeza e preparação dos dados são etapas críticas para o sucesso do modelo.
+
+A análise exploratória revelou padrões claros de sobrevivência, como a forte influência do gênero e da classe social.
+
+A comparação de algoritmos mostrou que o k‑NN, com ajuste de hiperparâmetros, superou os demais modelos.
+
+Apesar do resultado razoável, há espaço para melhorias, como:
+
+Engenharia de features adicionais (ex.: extrair título do nome, criar variáveis de família).
+
+Testar outros algoritmos (Random Forest, XGBoost).
+
+Utilizar técnicas de balanceamento de classes.
+
+## 👤 Autor
+Caio Santos de Almeida
+📧 caiosantal.cd@gmail.com
+🔗 [LinkedIn](https://www.linkedin.com/in/caiosantal/)
+🐙 [GitHub](https://github.com/caiosantal)
+
