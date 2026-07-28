@@ -1,5 +1,4 @@
-# 🚢 titanic-kaggle-machine-learning
-Leitura dos dados, Limpeza, Tratamento de Nulos, Normalização, Análise Descritiva (EDA) e Classificação comparativa com Naive Bayes, Regressão Logística e KNN.
+# 🚢 Titanic - Projeto de Ciência de Dados
 
 [![Kaggle](https://img.shields.io/badge/Kaggle-Titanic-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/c/titanic](https://www.kaggle.com/caiosantal))
 
