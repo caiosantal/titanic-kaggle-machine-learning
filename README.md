@@ -102,6 +102,7 @@ Utilizar técnicas de balanceamento de classes.
 
 ## 👤 Autor
 Caio Santos de Almeida
+
 📧 caiosantal.cd@gmail.com
 🔗 [LinkedIn](https://www.linkedin.com/in/caiosantal/)
 🐙 [GitHub](https://github.com/caiosantal)
