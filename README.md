@@ -79,9 +79,9 @@ Os dados foram divididos em treino (891 registros) e teste (418 registros). Trê
 
 | Modelo | Acurácia (Treino) | Score Kaggle |
 | :--- | :---: | :---: |
-| Naive Bayes | 78,90% | — |
-| Regressão Logística | 80,02% | — |
-| k-NN (k=16, Euclidiana) | 83,61% | 0,76794 |
+| Naive Bayes | 78,90% | 0.75358 |
+| Regressão Logística | 80,02% | 0,76794 |
+| k-NN (k=16, Euclidiana) | 83,61% | 0.75598 |
 
 ## 📌 Conclusão
 Este projeto demonstra um fluxo de trabalho completo de Ciência de Dados:
