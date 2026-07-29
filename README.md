@@ -75,10 +75,13 @@ Porto de embarque: a maioria dos sobreviventes embarcou em Southampton (S)
 ## 🤖 Modelagem e Resultados
 Os dados foram divididos em treino (891 registros) e teste (418 registros). Três algoritmos foram testados:
 
-Modelo	Acurácia (treino)	Score Kaggle
-Naive Bayes	78,90%	—
-Regressão Logística	80,02%	—
-k‑NN (k=16, Euclidiana)	83,61%	0,76794
+### 📊 Comparação de Desempenho dos Modelos
+
+| Modelo | Acurácia (Treino) | Score Kaggle |
+| :--- | :---: | :---: |
+| Naive Bayes | 78,90% | — |
+| Regressão Logística | 80,02% | — |
+| k-NN (k=16, Euclidiana) | 83,61% | 0,76794 |
 
 ## 📌 Conclusão
 Este projeto demonstra um fluxo de trabalho completo de Ciência de Dados:
