@@ -51,7 +51,13 @@ Para executar o notebook localmente ou no Google Colab, você precisará das seg
 - `scikit-learn`
 
 ## 📂 Dados
-Os dados estão disponíveis no Kaggle – Titanic: Machine Learning from Disaster. Faça o download dos arquivos train.csv e test.csv e coloque-os em um diretório de sua preferência.
+
+1. Faça o download dos arquivos **`train.csv`** e **`test.csv`** disponíveis na página da competição no [Kaggle](https://www.kaggle.com/competitions/titanic/data).
+2. Salve os arquivos em uma pasta no seu **Google Drive**.
+* **Estrutura recomendada no Drive:** `dados/titanic/` (ficando no caminho `/content/drive/My Drive/dados/titanic/`).
+3. **Atenção:** Se optar por salvar em um diretório diferente, lembre-se de atualizar os caminhos no notebook onde os arquivos são lidos e salvos:
+* **Leitura dos dados:** `pd.read_csv(...)`
+* **Exportação dos resultados:** `.to_csv(...)`
 
 ## 📊 Análise Exploratória
 A análise inicial revelou informações importantes:
