@@ -4,7 +4,6 @@
 
 > **Classificação de sobreviventes do naufrágio do Titanic** – um projeto completo de *machine learning* com análise exploratória, pré-processamento e comparação de modelos.
 
----
 
 ## 📖 Sobre o Projeto
 
@@ -18,7 +17,6 @@ O objetivo é aplicar todo o *pipeline* de Ciência de Dados: desde a formulaç�
 - Comparar diferentes algoritmos (*Naive Bayes*, *Regressão Logística* e *k‑NN*).
 - Gerar um *submission file* para o Kaggle e avaliar o desempenho.
 
----
 
 ## 📁 Estrutura do Projeto
 
@@ -38,7 +36,6 @@ O projeto está organizado nas seguintes etapas:
    - `KNeighborsClassifier` (com *GridSearchCV* para ajuste de hiperparâmetros).
 6. **Submissão ao Kaggle** – geração do arquivo `.csv` com as predições.
 
----
 
 ## 🛠️ Pré‑requisitos e Instalação
 
